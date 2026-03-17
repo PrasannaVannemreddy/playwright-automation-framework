@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  playwright:
+    image: mcr.microsoft.com/playwright:v1.58.2-noble
+    container_name: playwright-server
+    working_dir: /home/pwuser
+    user: pwuser
+    command: >
+      /bin/sh -c "npx -y playwright@1.58.2 run-server --port 3000 --host 0.0.0.0"
+    ports:
+      - "3000:3000"
+    stdin_open: true
+    tty: true
+    restart: unless-stopped

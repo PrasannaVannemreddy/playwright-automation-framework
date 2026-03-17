@@ -43,7 +43,7 @@ test("gmail user sees Access Denied when viewing yahoo user booking", async ({
     headers: { Authorization: `Bearer ${token}` },
     data: {
       eventId,
-      customerName: "Yahoo User",
+      customerName: "Lakshmi Prasanna",
       customerEmail: YAHOO_USER.email,
       customerPhone: "9999999999",
       quantity: 1,

@@ -10,7 +10,8 @@
     "apiTests": "npx playwright test --grep @API",
     "mobileTests": "npx playwright test --grep @Mobile",
     "SafariNewConfig": "npx playwright test --config playwright.config.js --project=chromium",
-    "CucumberRegression": "npx cucumber-js --tags '@Regression' --retry 1 --exit --format html:cucumber-report.html"
+    "CucumberRegression": "npx cucumber-js --tags '@Regression' --retry 1 --exit --format html:cucumber-report.html",
+    "mcp-server": "npx mcp-server"
   },
   "keywords": [],
   "author": "",
@@ -19,10 +20,14 @@
   "devDependencies": {
     "@azure/identity": "^4.13.0",
     "@azure/playwright": "^1.1.2",
+    "@modelcontextprotocol/sdk": "^1.27.1",
     "@playwright/test": "^1.58.2",
     "@types/node": "^25.3.0",
     "allure-playwright": "^3.6.0",
-    "dotenv": "^17.3.1"
+    "dotenv": "^17.3.1",
+    "mcp-server": "^0.0.9",
+    "typescript": "^5.9.3",
+    "zod": "^4.3.6"
   },
   "dependencies": {
     "@cucumber/cucumber": "^12.7.0",

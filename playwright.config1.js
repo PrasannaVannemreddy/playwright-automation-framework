@@ -32,6 +32,10 @@ module.exports = defineConfig({
         trace: "on",
         //viewport: { width: 1280, height: 720 },
         ...devices["iPhone 12"],
+        // ✅ Docker connection
+        connectOptions: {
+          wsEndpoint: "ws://localhost:3000",
+        },
       },
     },
   ],
