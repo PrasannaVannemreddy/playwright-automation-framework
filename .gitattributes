@@ -1,8 +1,14 @@
-# Ignore generated reports for language stats
+# Ignore generated reports
 playwright-report/** linguist-vendored
 allure-report/** linguist-vendored
 allure-results/** linguist-vendored
 reports/** linguist-vendored
 
-# Optional: ignore screenshots/videos
+# Ignore dependencies
+node_modules/** linguist-vendored
+
+# Ignore screenshots & media
 screenshots/** linguist-generated
+
+# Ignore all HTML files (important)
+*.html linguist-vendored
