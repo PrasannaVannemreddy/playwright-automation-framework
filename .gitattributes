@@ -1,0 +1,8 @@
+# Ignore generated reports for language stats
+playwright-report/** linguist-vendored
+allure-report/** linguist-vendored
+allure-results/** linguist-vendored
+reports/** linguist-vendored
+
+# Optional: ignore screenshots/videos
+screenshots/** linguist-generated
