@@ -115,8 +115,7 @@ allure serve allure-results
 
 ## 👩‍💻 Author
 
-Prasanna Lakshmi
-
+Lakshmi Prasanna Vannemreddy
 ---
 
 ## 🌟 Highlights
