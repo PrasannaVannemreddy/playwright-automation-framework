@@ -134,3 +134,4 @@ Prasanna Lakshmi
 - GitHub Actions pipeline
 - Parallel execution optimization
 - Advanced reporting dashboards
+# playwright-automation-framework
